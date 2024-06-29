@@ -1,7 +1,7 @@
 [
     "qemu-system-arm",
     {
-        "-machine ":"virt-9.0",
+        "-machine ":"virt",
         "-smp ":{
             "sep":",",
             "sockets=":"1",
