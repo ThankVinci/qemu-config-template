@@ -1,0 +1,13 @@
+[
+    "qemu-system-i386",
+    {
+        "-machine ":"q35",
+        "-smp ":{
+            "sep":",",
+            "sockets=":"1",
+            "cores=":"4"
+        },
+        "-m ":"2048",
+        "-net ":"user"
+    }
+]
